@@ -1,0 +1,127 @@
+# HELP node_memory_MemTotal_bytes Memory information field MemTotal_bytes.
+# TYPE node_memory_MemTotal_bytes gauge
+node_memory_MemTotal_bytes 2.063675392e+09
+
+# HELP node_memory_MemAvailable_bytes Memory information field MemAvailable_bytes.
+# TYPE node_memory_MemAvailable_bytes gauge
+node_memory_MemAvailable_bytes 1.15513344e+09
+
+# HELP node_memory_Cached_bytes Memory information field Cached_bytes.
+# TYPE node_memory_Cached_bytes gauge
+node_memory_Cached_bytes 1.059954688e+09
+
+# HELP node_memory_MemFree_bytes Memory information field MemFree_bytes.
+# TYPE node_memory_MemFree_bytes gauge
+node_memory_MemFree_bytes 4.53029888e+08
+
+# HELP node_memory_Buffers_bytes Memory information field Buffers_bytes.
+# TYPE node_memory_Buffers_bytes gauge
+node_memory_Buffers_bytes 1.04112128e+08
+
+# HELP node_filesystem_size_bytes Filesystem size in bytes.
+# TYPE node_filesystem_size_bytes gauge
+node_filesystem_size_bytes{device="/dev/mapper/ubuntu--vg-ubuntu--lv",fstype="ext4",mountpoint="/"} 1.204097024e+10
+node_filesystem_size_bytes{device="/dev/sda2",fstype="ext4",mountpoint="/boot"} 2.040373248e+09
+
+# HELP node_filesystem_avail_bytes Filesystem space available to non-root users in bytes.
+# TYPE node_filesystem_avail_bytes gauge
+node_filesystem_avail_bytes{device="/dev/mapper/ubuntu--vg-ubuntu--lv",fstype="ext4",mountpoint="/"} 4.470288384e+09
+node_filesystem_avail_bytes{device="/dev/sda2",fstype="ext4",mountpoint="/boot"} 1.807929344e+09
+
+# HELP node_filesystem_files Filesystem total file nodes.
+# TYPE node_filesystem_files gauge
+node_filesystem_files{device="/dev/mapper/ubuntu--vg-ubuntu--lv",fstype="ext4",mountpoint="/"} 753664
+node_filesystem_files{device="/dev/sda2",fstype="ext4",mountpoint="/boot"} 131072
+
+# HELP node_filesystem_files_free Filesystem total free file nodes.
+# TYPE node_filesystem_files_free gauge
+node_filesystem_files_free{device="/dev/mapper/ubuntu--vg-ubuntu--lv",fstype="ext4",mountpoint="/"} 636791
+node_filesystem_files_free{device="/dev/sda2",fstype="ext4",mountpoint="/boot"} 130755
+
+# HELP node_cpu_seconds_total Seconds the CPUs spent in each mode.
+# TYPE node_cpu_seconds_total counter
+node_cpu_seconds_total{cpu="0",mode="idle"} 1798.24
+node_cpu_seconds_total{cpu="0",mode="iowait"} 5.16
+node_cpu_seconds_total{cpu="0",mode="irq"} 0
+node_cpu_seconds_total{cpu="0",mode="nice"} 0
+node_cpu_seconds_total{cpu="0",mode="softirq"} 1.39
+node_cpu_seconds_total{cpu="0",mode="steal"} 0
+node_cpu_seconds_total{cpu="0",mode="system"} 13.55
+node_cpu_seconds_total{cpu="0",mode="user"} 30.7
+
+# HELP node_disk_reads_completed_total The total number of reads completed successfully.
+# TYPE node_disk_reads_completed_total counter
+node_disk_reads_completed_total{device="dm-0"} 13594
+node_disk_reads_completed_total{device="sda"} 10847
+node_disk_reads_completed_total{device="sr0"} 0
+
+# HELP node_disk_writes_completed_total The total number of writes completed successfully.
+# TYPE node_disk_writes_completed_total counter
+node_disk_writes_completed_total{device="dm-0"} 7202
+node_disk_writes_completed_total{device="sda"} 3946
+node_disk_writes_completed_total{device="sr0"} 0
+
+
+acpi/
+asound/
+bootconfig
+buddyinfo
+bus/
+cgroups
+cmdline
+consoles
+cpuinfo
+crypto
+devices
+diskstats
+dma
+driver/
+dynamic_debug/
+execdomains
+fb
+filesystems
+fs/
+interrupts
+iomem
+ioports
+irq/
+kallsyms
+kcore
+keys
+key-users
+kmsg
+kpagecgroup
+kpagecount
+kpageflags
+latency_stats
+loadavg
+locks
+mdstat
+meminfo
+misc
+modules
+mounts
+mtrr
+net/
+pagetypeinfo
+partitions
+pressure/
+schedstat
+scsi/
+self/
+slabinfo
+softirqs
+stat
+swaps
+sys/
+sysrq-trigger
+sysvipc/
+thread-self/
+timer_list
+tty/
+uptime
+version
+version_signature
+vmallocinfo
+vmstat
+zoneinfo

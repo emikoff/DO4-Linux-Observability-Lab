@@ -1,0 +1,18 @@
+# Generated file-system experiment data
+log.tsv
+src/02/logs/
+
+# Generated HTTP logs and reports
+src/04/logs/
+src/06/access-log.html
+
+# Runtime files of the custom exporter
+src/09/*.pid
+src/09/*.tmp
+
+# Editor and OS metadata
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
